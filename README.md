@@ -20,22 +20,23 @@ This library management system was born in order to realise the above requiremen
 
 ## Project Scope and Exclusions
 ### Major Features
-*  Admin Library:
--  User management
 
-*  User (Logged):
--  View, Search Book 
--  View News
--  Booking
--  View Violation ticket
--  Pre-Order book
--  View Booking Ticket
--  Feedback
+-  Admin Library:
+    -  User management
 
-*  Guest:
--  View, Search Book 
--  View News
--  Login
+-  User (Logged):
+    -  View, Search Book 
+    -  View News
+    -  Booking
+    -  View Violation ticket
+    -  Pre-Order book
+    -  View Booking Ticket
+    -  Feedback
+
+-  Guest:
+    -  View, Search Book 
+    -  View News
+    -  Login
 
 *  Staff:
 -  Book, Ticket, News management
