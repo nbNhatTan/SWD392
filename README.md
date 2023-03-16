@@ -38,8 +38,8 @@ This library management system was born in order to realise the above requiremen
     -  View News
     -  Login
 
-*  Staff:
--  Book, Ticket, News management
+-  Staff:
+    -  Book, Ticket, News management
 
 ## Technology
 - Frontend:
