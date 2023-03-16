@@ -1,0 +1,163 @@
+html, body {
+    width: 100%;
+      height: 100%;
+  
+      font-size: 20px;
+      color: #222222;
+  }
+  .navbar {
+    background-color: #F7E5D7 !important;
+    
+  }
+  .nav{
+    background-color: #F5D98F !important;
+  }
+  .body{
+    background-color: #FFFFFF !important;
+  }
+  .image{
+    background-color: #F7E5D7 !important;
+    width: 10px;
+    height: 10px;
+  }
+  
+.table-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+   
+  
+  }
+  .heading{
+    font-size: 40px;
+    text-align: left;
+    color: #000;
+   
+  
+  }
+  
+  .borrow-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    
+  }
+  
+  .borrow-table thead{
+    background-color: #a0a0a0;
+    text-align: center;
+  
+  }
+  
+  
+  .borrow-table thead tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color:#ffffff;
+    opacity: 1;
+    padding:12px;
+    vertical-align: top;
+    border: 1px solid #000000;
+  
+  }
+  
+  .borrow-table tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #e9ecef;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+  
+  }
+  
+  
+  .borrow-table .status{
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.35px;
+      color: #0e740085;
+  }
+  .borrow-table .Pending{
+      color: #ffa500;
+  }
+  .borrow-table .Borrowing{
+      color: #00b050;
+  }
+  .borrow-table .Returned{
+      color: #000;
+  }
+  .borrow-table .Expired{
+      color: #f00;
+  }
+  .borrow-table .HandleViolation{
+      color: #ffa500;
+  }
+  .borrow-table .Approved{
+      color: #0008ff;
+  }
+  
+  .pagination ul{
+    display: flex;
+    background: #e9ecef;
+    padding: 8px;
+    border-radius:50px ;
+    margin-left: 10%;
+    border: 1px solid #000;
+  }
+  
+  .pagination ul li{
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+
+  }
+  
+  .pagination ul li.numb{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 0 3px;
+
+
+  }
+
+  .pagination ul li.dots{
+    font-size: 22px;
+    cursor: default;
+
+  }
+
+  .pagination ul li.btn{
+    
+    padding: 0 20px;
+  }
+
+  .pagination ul li.prev{
+    border-radius: 25px 5px 5px 25px;
+
+  }
+  
+  .pagination ul li.next{
+    border-radius: 5px 25px 25px 5px;
+  }
+
+  .pagination ul li.numb:hover,
+  .pagination ul li.active,
+  .pagination ul li.btn:hover{
+    background: #ff7b00;
+    color: #fff;
+  }
+  
+  a{
+      color: #343a40;
+  }
+  
+  

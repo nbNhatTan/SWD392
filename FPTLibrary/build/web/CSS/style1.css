@@ -1,0 +1,289 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #222222;
+}
+
+.navbar {
+    background-color: #F7E5D7 !important;
+
+}
+.nav{
+    background-color: #F5D98F !important;
+}
+.body{
+    background-color: #FFFFFF !important;
+}
+.image{
+    background-color: #F7E5D7 !important;
+    width: 10px;
+    height: 10px;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 17%;
+    max-height: 17%;
+    top: 0;
+}
+
+.footer {
+    position: relative;
+    font-size: 16px;
+    background-color: #F7E5D7 !important;
+    width: 100%;
+    color: #222222;
+}
+footer {
+    padding-bottom:  20px;
+    margin: 0 0px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #F3CCB5 !important ;
+
+}
+container {
+    background: none;
+    padding: 14px 0;
+}
+div.footer {
+    float: left;
+    width: 100%;
+}
+div.gotop {
+    min-width: 50px;
+    float: right;
+    margin: 0px 0 0;
+    padding: 25px 0px 0px;
+    font-style: italic;
+    cursor: pointer;
+}
+gotop{
+    float: left;
+}
+div.gotop {
+    background: url(..//..//image/top-icon.png) no-repeat scroll center top transparent;
+}
+div.clearfix{
+    float: left;
+}
+
+footer a {
+    color: #194a80 !important;
+}
+.main{
+    position: relative;
+    min-height: 62%;
+    background-color: #f8f9fa;
+}
+.new{
+    background-color: #ffffff !important;
+
+}
+.new2 {
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.contents {
+    background-color: #f8f9fa !important;
+    padding-top: 10px;
+}
+.content {
+    background-color: #ffffff;
+
+}
+.main-content {
+    background-color: #ffffff;
+
+}
+.announecement {
+    background-color: #ffffff;
+    padding-left: 15px;
+}
+
+
+.bookingButton {
+    background-color: deeppink;
+    color: #ffffff;
+
+
+}
+
+.feedbackButton{
+    text-align: center;
+}
+.feedbackButton button{
+    background-color: deeppink;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+}
+.comment_heading{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #202020;
+    margin:40px 0px 0px 0px;
+    color:#ffffff;
+    font-family: poppins;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+
+}
+
+.box_comment {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width:97%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+.user_name{
+    display:flex;
+    flex-direction: column;
+}
+
+.user_name strong{
+    color: #3d3d3d;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.client_comment{
+    font-size: 20px;
+}
+
+
+div.stars {
+    width: 235px;
+    margin-left: 42%;
+    display: inline-block;
+}
+input.star { display: none; }
+
+label.star {
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    color: #444;
+    transition: all .2s;
+}
+input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+}
+input.star-5:checked ~ label.star:before {
+    color: #FE7;
+
+}
+input.star-1:checked ~ label.star:before { color: #F62; } 
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+
+i.star{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    color: #444;
+    transition: all .2s;
+
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+
+.bookDetailImage {
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+
+    overflow: hidden;
+}
+
+a{
+    color: #2570c2;
+}
+
+/* Khoa{
+.container-news{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100vh;
+    background-image:  url('./image/background.jpg'); 
+   
+    background-size: cover;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+
+}
+
+.news_box{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding:10px;
+    outline: 0;
+    border: 1px solid #202020;
+    color: #202020;
+    font-size: 15px; 
+}
+
+
+.addNewsButton{
+    text-align: center;
+}
+}*/
+.fon31 {
+    font: 700 24px /23px "Times New Roman";
+    color: #004175;
+}
+
+li a{
+      color: #343a40;
+  }
